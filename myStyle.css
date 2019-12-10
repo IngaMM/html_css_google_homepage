@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  position: relative;
+  top: 15px;
+  right: 10px;
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  font-size: 12px;
+  font-family: "Verdana";
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+li a:link {
+  text-decoration: none;
+}
+li a:visited {
+  text-decoration: none;
+}
+li a:active {
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.Anm:hover {
+  text-decoration: none;
+}
+
+.Link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.Pic {
+  margin-left: -10px;
+  margin-top: -18px;
+}
+
+.Anm {
+  margin-left: -45px;
+  background-color: #3f93ec;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.midsection {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+}
+
+.searchbar {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 35px;
+  width: 496px;
+  font-size: 13px;
+  border-width: thin;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.searchbar:focus,
+.searchbar:hover {
+  outline: none;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.buttongroup {
+  margin-top: 30px;
+  display: block;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  font-size: 12px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+  border-width: 0;
+  background-color: #e7e7e7;
+  width: 130px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 2px;
+}
+
+.button:hover {
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+  margin-top: -1px;
+}
+
+footer {
+  position: relative;
+  top: 112px;
+  padding-left: 45px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-top: solid;
+  border-top-width: 0.4px;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  height: 80px;
+  width: 1245px;
+}
+
+p {
+  position: relative;
+  left: -35px;
+  font-family: "Verdana";
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: solid;
+  border-bottom-width: 0.2px;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  padding-bottom: 14px;
+  padding-left: 35px;
+  width: 1245px;
+}
+
+.foot1 {
+  float: left;
+}
+
+.foot2 {
+  float: right;
+}
+
+ul.foot1,
+ul.foot2 {
+  margin-top: -12px;
+  margin-left: -8px;
+}
